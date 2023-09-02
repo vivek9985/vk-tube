@@ -84,12 +84,12 @@ const videoCardDisplay = (videoData) => {
         });
     }
 }
-const activeBtn = (id) =>{
-    console.log(id)
-    const constainer = document.getElementById('tab-container');
-    const currentCategory = document.getElementById(id);
-    for(const child of currentCategory.children){
-        console.log(child)
-    }
-}
+// const activeBtn = (id) =>{
+//     console.log(id)
+//     const constainer = document.getElementById('tab-container');
+//     const currentCategory = document.getElementById(id);
+//     for(const child of currentCategory.children){
+//         console.log(child)
+//     }
+// }
 videoDisplay('1000');
