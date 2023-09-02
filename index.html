@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/fav-icon.png" type="image/x-icon">
+    <title>PH Tube</title>
+    <!-- tailwind and daisyui cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            transition: all ease-in .3s;
+        }
+        .active {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="w-11/12 mx-auto">
+        <div
+            class="flex flex-col sm:flex-row items-center justify-between space-y-6 sm:space-y-0 font-medium mt-0 md:mt-2 py-9 border-b-[1px] border-red-100">
+            <div class="sm:w-4/12 text-center sm:text-end cursor-pointer">
+                <img src="./assets/img/Logo.png" alt="">
+            </div>
+            <div class="sm:w-4/12 text-center">
+                <button id="sort-btn" class="text-xl py-2 px-5 bg-violet-200 hover:bg-violet-300 rounded-xl">Sort by view</button>
+            </div>
+            <div class="sm:w-4/12 text-center sm:text-end">
+                <a href="./blog.html" class="py-2 px-5 bg-gradient-to-r from-pink-600 to-purple-600 text-gray-800 rounded-xl hover:text-slate-100 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600">Blog</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-11/12 mx-auto">
+        <section>
+            <!-- tab container -->
+            <div id="tab-container" class="flex flex-wrap justify-center gap-4 my-8 py-4">
+            </div>
+            <!-- Vide card container -->
+            <div id="video-card-container"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            </div>
+        </section>
+
+        <!-- No content container -->
+        <section id="no-content">
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
