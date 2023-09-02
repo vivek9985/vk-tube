@@ -25,7 +25,7 @@ const categories = (data) => {
         const itemdiv = document.createElement('div');
         itemdiv.innerHTML = `
             <div class="inline-flex rounded-xl bg-gradient-to-r from-pink-600 to-purple-600 p-[1px] md:p-[2px}">
-                <button id="${category?.category_id}" onclick="videoDisplay('${category?.category_id}') ; updateCategroy('${category?.category_id}') ; activeBtn(${category?.category_id})" class="w-full h-full font-medium py-1 md:py-1.5 px-3 md:px-7 rounded-xl bg-white hover:text-white hover:bg-transparent">${category?.category}</button>
+                <button id="${category?.category_id}" onclick="videoDisplay('${category?.category_id}') ; updateCategroy('${category?.category_id}') ; activeBtn(${category?.category_id})" class="w-full h-full font-medium py-1 md:py-1.5 px-3 md:px-7 rounded-xl bg-white hover:text-white hover:bg-transparent focus:bg-transparent focus:text-white">${category?.category}</button>
             </div>
         `;
         tabContainer.appendChild(itemdiv);
