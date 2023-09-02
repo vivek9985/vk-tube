@@ -10,31 +10,33 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="w-11/12 mx-auto">
+    
     <header>
         <div class="flex flex-col sm:flex-row items-center justify-between space-y-6 sm:space-y-0 font-medium mt-0 md:mt-2 py-9 border-b-[1px] border-red-100">
             <div class="sm:w-6/12 text-center sm:text-end cursor-pointer">
-                <a href="./index.html">
+                <a href="https://vktube.surge.sh/">
                     <img src="./assets/img/Logo.png" alt="">
                 </a>
             </div>
             <div class="sm:w-6/12 text-center sm:text-end">
-                <a href="./index.html" class="text-lg py-3 px-7 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-xl hover:text-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600">Home</a>
+                <a href="https://vktube.surge.sh/" class="text-lg py-3 px-7 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-xl hover:text-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600">Home</a>
             </div>
         </div>
     </header>
+
     <main>
-        <h2>Blog Questions</h2>
-        <ul>
-            <li>Discuss the scope of var, let, and const</li>
-            <li>Tell us the use cases of null and undefined</li>
-            <li>What do you mean by REST API?</li>
-        </ul>
+        <h2 class="text-center text-4xl mt-10 mb-2 font-bold">Blog <span class="text-purple-500">Questions</span></h2>
+        <div class="w-40 h-0.5 mx-auto bg-gradient-to-r to-pink-600 from-purple-600 mb-1"></div>
+        <div class="w-28 h-0.5 mx-auto bg-gradient-to-r to-pink-600 from-purple-600 mb-12"></div>
+        <div class="space-y-6">
+            <h5 class="bg-red-200 text-2xl font-semibold text-gray-900 py-3 pl-4 pr-9 w-auto rounded-xl">Discuss the scope of var, let, and const.</h5>
+            <p class="bg-green-200 text-lg text-black py-3 pl-4 pr-9 w-auto rounded-xl"><span class="text-pink-700 font-semibold">Var</span> declarations are globally scoped or function scoped while let and <span class="text-pink-700 font-semibold">const</span> are block scoped. <span class="text-pink-700 font-semibold">Var</span> variables can be updated and re-declared within its scope; <span class="text-pink-700 font-semibold">Let</span> variables can be updated but not re-declared; <span class="text-pink-700 font-semibold">const</span> variables can  neither be updated nor re-declared.</p>
+            <h5 class="bg-red-200 text-2xl font-semibold text-gray-900 py-3 pl-4 pr-9 w-auto rounded-xl">Tell us the use cases of null and undefined.</h5>
+            <p class="bg-green-200 text-lg text-black py-3 pl-4 pr-9 w-auto rounded-xl"><span class="text-pink-700 font-semibold">Undefined </span> means the variable has been declared, but its value has not been assigned. <span class="text-pink-700 font-semibold">Null </span> means an empty value or a blank value. The typeof() operator returns undefined for an undefined variable. The typeof() operator returns the type as an object for a variable whose value is assigned as <span class="text-pink-700 font-semibold">null</span>.</p>
+            <h5 class="bg-red-200 text-2xl font-semibold text-gray-900 py-3 pl-4 pr-9 w-auto rounded-xl">What do you mean by REST API?</h5>
+            <p class="bg-green-200 text-lg text-black py-3 pl-4 pr-9 w-auto rounded-xl">A <span class="text-pink-700 font-semibold">REST API</span> is an API that conforms to the design principles of the REST, or representational state transfer architectural style. For this reason, <span class="text-pink-700 font-semibold">REST APIs</span> are sometimes referred to <span class="text-pink-700 font-semibold">RESTful APIs</span>.</p>
+        </div>
     </main>
     
 </body>
 </html>
-
-
-
-
-
